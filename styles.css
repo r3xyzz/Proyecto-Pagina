@@ -2,11 +2,11 @@
 .rotating-logo {
     width: 100px; /* Ajusta el ancho según tus preferencias */
     height: 100px; /* Ajusta la altura según tus preferencias */
-    transition: transform 0.5s ease; /* Agrega una transición suave */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
 }
 
 .rotating-logo:hover {
-    animation: flip 0.5s ease; /* Agrega la animación tipo "giro de moneda" al pasar el mouse */
+    animation: flip 0.1s ease; /* Agrega la animación tipo "giro de moneda" al pasar el mouse */
 }
 
 @keyframes flip {
@@ -20,4 +20,17 @@
         transform: perspective(100px) rotateY(360deg); /* Gira 180 grados al final de la animación */
     }
 }
+
+.gray-box {
+    background-color: rgba(200, 200, 200, 0.8); /* Color de fondo gris con opacidad */
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px; /* Espacio en blanco arriba del recuadro gris */
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+
 /*Ethan Joshua Silvestre Badia*/
