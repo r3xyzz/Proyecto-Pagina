@@ -22,15 +22,62 @@
 }
 
 .gray-box {
-    background-color: rgba(200, 200, 200, 0.8); /* Color de fondo gris con opacidad */
+    background-color: rgba(160, 159, 159, 0.8); /* Color de fondo gris con opacidad */
     padding: 20px;
     text-align: center;
     margin-top: 50px; /* Espacio en blanco arriba del recuadro gris */
     max-width: 600px;
     margin: 0 auto;
     border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Sombra suave */
 }
 
+   /*Barras de nivel de dominio de lenguajes de programacion*/
+.niveles-programacion {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.nivel {
+    margin-bottom: 20px;
+}
+
+.nivel p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.barra {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nivel-python {
+    width: 45%; /* Ajusta el ancho según tu nivel en Python */
+    background-color: #4CAF50; /* Color verde para Python */
+    height: 100%;
+    border-radius: 10px;
+}
+
+.nivel-java {
+    width: 35%; /* Ajusta el ancho según tu nivel en Java */
+    background-color: #FFC107; /* Color amarillo para Java */
+    height: 100%;
+    border-radius: 10px;
+}
+
+.nivel-html-css {
+    width: 50%; /* Ajusta el ancho según tu nivel en HTML & CSS */
+    background-color: #2196F3; /* Color azul para HTML & CSS */
+    height: 100%;
+    border-radius: 10px;
+}
 
 /*Ethan Joshua Silvestre Badia*/
