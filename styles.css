@@ -60,21 +60,21 @@
 }
 
 .nivel-python {
-    width: 45%; /* Ajusta el ancho según tu nivel en Python */
+    width: 55%; /* Ajusta el ancho según tu nivel en Python */
     background-color: #4CAF50; /* Color verde para Python */
     height: 100%;
     border-radius: 10px;
 }
 
 .nivel-java {
-    width: 35%; /* Ajusta el ancho según tu nivel en Java */
+    width: 63%; /* Ajusta el ancho según tu nivel en Java */
     background-color: #FFC107; /* Color amarillo para Java */
     height: 100%;
     border-radius: 10px;
 }
 
 .nivel-html-css {
-    width: 50%; /* Ajusta el ancho según tu nivel en HTML & CSS */
+    width: 75%; /* Ajusta el ancho según tu nivel en HTML & CSS */
     background-color: #2196F3; /* Color azul para HTML & CSS */
     height: 100%;
     border-radius: 10px;
